@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondKata", "src\DiamondKata\DiamondKata.csproj", "{28480141-10F8-4336-BBC9-6CBE2CC81837}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{84DBAA0B-B0A2-4BD8-9C3A-BDC2AE9E0790}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3382E0BC-E293-4BCC-BD08-DFA96ABC8883}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{9A97E446-4969-47B9-86F7-A2025CC7C252}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "IntegrationTests", "{33172344-3A9B-4D44-B9C8-97FF84CAF69D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Benchmarks", "Benchmarks", "{1EE71E66-958C-40F3-922C-A0CA427EA035}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondKata.Tests", "DiamondKata.Tests\DiamondKata.Tests.csproj", "{540A9738-8BA5-48DD-A351-735A73ABCE59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{689F92AB-AD44-4495-81C0-970C746E8AE7}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		dependencies.props = dependencies.props
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondKata.Abstractions", "DiamondKata.Abstractions\DiamondKata.Abstractions.csproj", "{E0E6B374-4317-43B1-B36C-FBFFA79BCA3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28480141-10F8-4336-BBC9-6CBE2CC81837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28480141-10F8-4336-BBC9-6CBE2CC81837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28480141-10F8-4336-BBC9-6CBE2CC81837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28480141-10F8-4336-BBC9-6CBE2CC81837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540A9738-8BA5-48DD-A351-735A73ABCE59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540A9738-8BA5-48DD-A351-735A73ABCE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540A9738-8BA5-48DD-A351-735A73ABCE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540A9738-8BA5-48DD-A351-735A73ABCE59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E6B374-4317-43B1-B36C-FBFFA79BCA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E6B374-4317-43B1-B36C-FBFFA79BCA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E6B374-4317-43B1-B36C-FBFFA79BCA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E6B374-4317-43B1-B36C-FBFFA79BCA3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28480141-10F8-4336-BBC9-6CBE2CC81837} = {84DBAA0B-B0A2-4BD8-9C3A-BDC2AE9E0790}
+		{9A97E446-4969-47B9-86F7-A2025CC7C252} = {3382E0BC-E293-4BCC-BD08-DFA96ABC8883}
+		{33172344-3A9B-4D44-B9C8-97FF84CAF69D} = {3382E0BC-E293-4BCC-BD08-DFA96ABC8883}
+		{1EE71E66-958C-40F3-922C-A0CA427EA035} = {3382E0BC-E293-4BCC-BD08-DFA96ABC8883}
+		{540A9738-8BA5-48DD-A351-735A73ABCE59} = {9A97E446-4969-47B9-86F7-A2025CC7C252}
+		{E0E6B374-4317-43B1-B36C-FBFFA79BCA3E} = {84DBAA0B-B0A2-4BD8-9C3A-BDC2AE9E0790}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8F4FAE9-4738-4640-B43D-9D085128484B}
+	EndGlobalSection
+EndGlobal

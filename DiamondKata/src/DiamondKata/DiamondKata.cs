@@ -1,7 +1,5 @@
 ﻿using DiamondKata.Abstractions;
-using System.Text;
 using DiamondKata.Strategies;
-using System;
 
 namespace DiamondKata;
 

@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "Integra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Benchmarks", "Benchmarks", "{1EE71E66-958C-40F3-922C-A0CA427EA035}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondKata.Tests", "DiamondKata.Tests\DiamondKata.Tests.csproj", "{540A9738-8BA5-48DD-A351-735A73ABCE59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondKata.Tests", "tests\DiamondKata.Tests\DiamondKata.Tests.csproj", "{540A9738-8BA5-48DD-A351-735A73ABCE59}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{689F92AB-AD44-4495-81C0-970C746E8AE7}"
 	ProjectSection(SolutionItems) = preProject
@@ -25,7 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondKata.Abstractions", "DiamondKata.Abstractions\DiamondKata.Abstractions.csproj", "{E0E6B374-4317-43B1-B36C-FBFFA79BCA3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondKata.Abstractions", "src\DiamondKata.Abstractions\DiamondKata.Abstractions.csproj", "{E0E6B374-4317-43B1-B36C-FBFFA79BCA3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
